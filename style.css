@@ -40,7 +40,10 @@ ul {
   right: 100px;
 
 }
-
+.sondage {
+  position: fixed;
+  top: 0;bottom: 0;right: 0;left 0;
+  z-index: 999;
 .nav .menu {
   font-size: 18px;
   flex: 1;
