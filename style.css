@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  font-family:"Roboto Slab", serif;
+  font-size: 17px;
+  font-weight: 400;
+  width: 800px;
+  background: #191921;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  padding: 0 20px;
+}
+
+.nav ul li {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 8px;
+  font-weight: 600;
+
+}
+
+.nav .logo {
+  font-size: 18px;
+  letter-spacing: 0;
+  flex: 1;
+  position: absolute;
+  right: 100px;
+
+}
+
+.nav .menu {
+  font-size: 18px;
+  flex: 1;
+}
+
+.textes {
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  transform: translateY(-50%);
+}
+
+.textes h1 {
+  font-size: 90px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.textes p {
+  font-size: 20px;
+  color: #fff;
+  font-family:"Roboto Slab", serif;
+}
+
+.bottomnav {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+}
+
+.bottomnav ul li {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  margin-top: 20px;
+}
+
+.img-bg {
+  background-image: url("Images/Jade.jpg");
+  width: 600;
+  height: 200;
+}
+
+
+.bottomnav ul li:nth-child(2) {
+  font-weight: bolder;
+}
+
+.bottomnav ul li:nth-child(2)::before {
+  content: "";
+  display: inline-block;
+  border: 1px solid #fff;
+  width: 65px;
+  margin: 0 10px 0 -78px;
+  transform: translateY(-2px);
+}
